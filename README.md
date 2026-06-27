@@ -5,6 +5,8 @@ design executes RISC-V instructions across overlapping pipeline stages and
 includes a hazard unit that resolves data and control hazards automatically —
 no manually inserted `nop` instructions required.
 
+**Note**: The lack of modularity is due to no support for modularity in the Digital software, what was used to build the processor.
+
 ## Architecture
 
 ```
