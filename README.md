@@ -1,5 +1,7 @@
 # Pipelined RISC-V Processor
 
+![Pipelined RISC-V processor overview](photo/overview.png)
+
 A 5-stage pipelined RISC-V processor built in a digital logic simulator. The
 design executes RISC-V instructions across overlapping pipeline stages and
 includes a hazard unit that resolves data and control hazards automatically —
